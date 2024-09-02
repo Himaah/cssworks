@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.parent{
+    width: 50%;
+    min-height: 600px;
+    background-color: plum;
+}
+
+.box1{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(96, 16, 224);
+
+}
+
+.box2{
+    width: 75%;
+    height: 100px;
+    background-color:rgb(1, 10, 1)
+}
+
+.box3{
+    width: 99.8vw;
+    height: 100px;
+    background-color:aquamarine
+}
+
+.box4{
+    width: 50vw;
+    height: 100px;
+    background-color:rgb(18, 162, 239)
+}
+
+.box5{
+    width: 400px;
+    height: 100px;
+    background-color:rosybrown
+}
+

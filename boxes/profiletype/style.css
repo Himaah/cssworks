@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+}
+.border{
+    border: 1px solid black;
+}
+.profile-group{
+    height: 10%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    background-color: rgb(87, 180, 178);
+
+}
+.profile-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    height: 10%;
+    width: 10%;
+    justify-content:center;
+}
+
+.button1{
+    background-color: rgb(12, 12, 12);
+}
+.profile-group>img{
+    width: 50%;
+    
+
+}

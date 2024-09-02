@@ -1,0 +1,28 @@
+/* styling the 3 boxes */
+/* class selection . is used */
+
+.box{
+    width: 300px;
+    height: 200px;
+    border: 1px #434a45 solid;
+    color: white;
+    /* border-width: 1px;
+    border-color: #434a45;
+    border-style: solid; */
+}
+
+/* we  can give any number of classes to an element */
+.bg-success{
+    background-color: green;
+}    
+/* bg clor green */
+
+.bg-warning{
+    background-color: yellow;
+}
+/* bg color yellow */
+.bg-danger{
+    background-color: red;
+}
+
+/* bg color red */

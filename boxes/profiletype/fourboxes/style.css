@@ -1,0 +1,57 @@
+
+.parent{
+    width: 75%;
+    height: 600px;
+    border: 1px solid white;
+    background-color: rgb(249, 249, 251);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding: 10px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+
+.child{
+    background-color: rgb(117, 60, 171);
+    border: 1px solid rgb(216, 212, 212);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.parent>:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(136, 135, 133);
+
+}
+
+.parent>:nth-child(5){
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(136, 135, 133);
+    
+}
+
+.parent>:nth-child(3){
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(136, 135, 133);
+}
+
+.parent>:nth-child(2){
+    background-color: rgb(136, 135, 133);
+}
+
+.parent>:nth-child(4){
+    background-color: rgb(136, 135, 133);
+}
+
+
+
